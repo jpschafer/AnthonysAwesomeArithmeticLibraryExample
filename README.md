@@ -7,4 +7,5 @@ Measures to make library reusable:
 -Project is in source control and public. This allows anyone to be able to access the code, and allows for project to easily get updates, and allows for collaboration amongst   other developers.  
 -Methods are made simple: simple, to the point naming, and functionality kept basic. Left open to extension later on: potentially adding more in depth error handling as an example, or handling specific cases that may not be covered (negative numbers in certain areas).  
   
-#How To Run Project
+# How To Run Project
+You will need Visual Studio 2017 or 2019 with installed NUnit Runner extension. No real newer language features of C# are added, however, it is a netcore 3.1 app, so .NET Core 3.1 will need to be downloaded to run.
