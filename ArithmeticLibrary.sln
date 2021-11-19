@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31328.270
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArithmeticLibrary", "ArithmeticLibrary\ArithmeticLibrary.csproj", "{D6F7BF35-EFB1-4DEB-83CC-0C632B73D479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnthonysAwesomeArithmeticOperationsTests", "AnthonysAwesomeArithmeticOperationsTests\AnthonysAwesomeArithmeticOperationsTests.csproj", "{465B9DFF-AF23-488E-80FE-4586A2DFD8C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnthonysAwesomeArithmeticOperationsTests", "AnthonysAwesomeArithmeticOperationsTests\AnthonysAwesomeArithmeticOperationsTests.csproj", "{465B9DFF-AF23-488E-80FE-4586A2DFD8C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleMathApplication", "ExampleMathApplication\ExampleMathApplication.csproj", "{81A9FD9C-B442-4E37-8D81-397F6636036A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{465B9DFF-AF23-488E-80FE-4586A2DFD8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{465B9DFF-AF23-488E-80FE-4586A2DFD8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{465B9DFF-AF23-488E-80FE-4586A2DFD8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A9FD9C-B442-4E37-8D81-397F6636036A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A9FD9C-B442-4E37-8D81-397F6636036A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A9FD9C-B442-4E37-8D81-397F6636036A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A9FD9C-B442-4E37-8D81-397F6636036A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
