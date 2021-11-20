@@ -29,7 +29,7 @@ You should see output like this:
 ![image](https://user-images.githubusercontent.com/2609855/142705509-20bb5cc7-a713-42dd-8078-5253be756543.png)
 
 ### Command Line
-Open Up Command-Line or Powershell & build the solution (Tests, Application, & Library):
+Open Up Command-Line or Powershell, cd into the root of the repository, and build the solution (Tests, Application, & Library):
 ```
 dotnet build .\ArithmeticLibrary.sln
 ```
@@ -38,3 +38,24 @@ Now Run the Specific Application Project:
 ```
 dotnet run --project .\ExampleMathApplication\ExampleMathApplication.csproj
 ```
+
+you Should have seen output like the following:
+```
+PS C:\Users\Jason Schafer\Repositories\AnthonysAwesomeArithmeticLibrary> dotnet run --project .\ExampleMathApplication\ExampleMathApplication.csproj
+Performing Arithmetic on two Random Numbers between 0-1000: 744 & 590
+
+744 + 590 = 1334
+744 - 590 = 154
+744 * 590 = 438960
+744 / 590 = 1.261017
+744^5 = 2.2796316E+14
+sqrt(744) = 27.276363
+
+Number Conversions for 744
+
+Binary: 1011101000
+Octal: 1350
+Hexadecimal: 2e8
+
+ Program Complete! Exiting...
+ ```
